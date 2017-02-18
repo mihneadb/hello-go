@@ -1,4 +1,4 @@
 #!/bin/bash
 
-/usr/bin/hello &
+echo '/usr/bin/hello &' >> /etc/profile
 
