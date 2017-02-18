@@ -12,8 +12,8 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	fmt.Print("Go to http://localhost:3000/\n")
+	fmt.Print("Go to http://localhost:8080/\n")
 
 	http.HandleFunc("/", handler)
-	http.ListenAndServe(":3000", nil)
+	http.ListenAndServe(":8080", nil)
 }
